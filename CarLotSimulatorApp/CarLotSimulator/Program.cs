@@ -66,6 +66,8 @@ namespace CarLotSimulator
             volvo.MakeEngineNoise(volvo.EngineNoise);
             nissan.MakeEngineNoise(nissan.EngineNoise);
 
+            Console.WriteLine($"Number of cars created {CarLot.numberOfCars}");
+
             foreach(var car in carLot.Cars)
                    
             {
@@ -73,6 +75,8 @@ namespace CarLotSimulator
 
 
             }
+
+           
 
             //*************BONUS*************//
 
